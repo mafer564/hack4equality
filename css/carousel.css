@@ -37,6 +37,15 @@ body {
 .navbar-wrapper .navbar .container {
   width: auto;
 }
+.retraso1{
+  animation-delay:1s;
+}
+.retraso2{
+  animation-delay:2s;
+}
+.retraso3{
+  animation-delay:3s;
+}
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -50,6 +59,9 @@ body {
 #buscar{
   color: #8C3746;
   margin: 15px;
+}
+.out{
+  font-family: 'Metrophobic', Arial, serif; font-weight: 400; 
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -66,7 +78,7 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 600px;
+  height:600px;
 
 }
 

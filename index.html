@@ -20,8 +20,10 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
      <script src="js/ie-emulation-modes-warning.js"></script>
      <link href="css/carousel.css" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="css/animate.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,7 +42,7 @@
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
         <div class="container topnav">
             <!-- Brand and toggle get grouped for better mobile display -->
-                <a class="navbar-brand topnav" href="img/logo.jpg"></a>
+
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -52,6 +54,9 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+                    <li>
+                         <a class="navbar-brand topnav" href="img/logo.jpg"></a>
+                    </li>
                     <li>
                         <a href="#about">Anfitrión</a>
                     </li>
@@ -82,10 +87,10 @@
           <img class="first-slide" src="img/6.jpg" alt="First slide" >
           <div class="container">
             <div class="carousel-caption">
-              <h1>OUT</h1>
-                <h3>Out of the closet, out of the house...<br><br>Be safe!</h3>
+              <h1 style="font-family: 'Metrophobic', Arial, serif; font-weight: 400;" class="animated  fadeInDown retraso1">OUT</h1>
+                <h3 class="animated fadeInUp retraso2">Out of the closet, out of the house...<br><br>Be safe!</h3>
                 <hr class="intro-divider">
-                <ul class="list-inline intro-social-buttons">
+                <ul class="list-inline intro-social-buttons animated fadeInLeft retraso3">
                 <li>
                 <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                 </li>
@@ -103,7 +108,7 @@
           <img class="second-slide" src="img/habitacion.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>OUT</h1>
+              <h1 style="font-family: 'Metrophobic', Arial, serif; font-weight: 400;"  >OUT</h1>
                 <h3>Out of the closet, out of the house...<br><br>Be safe!</h3>
                 <hr class="intro-divider">
                 <ul class="list-inline intro-social-buttons">
@@ -111,10 +116,10 @@
                 <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                 </li>
                 <li>
-                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-facebok fa-fw"></i> <span class="network-name">Github</span></a>
+                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-facebok fa-fw"></i> <span class="network-name">Facebook</span></a>
                 </li>
                 <li>
-                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
                 </li>
                 </ul>
             </div>
@@ -124,7 +129,7 @@
           <img class="third-slide" src="img/2.jpg" alt="Third slide" style="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>OUT</h1>
+              <h1 style="font-family: 'Metrophobic', Arial, serif; font-weight: 400;">OUT</h1>
                 <h3>Out of the closet, out of the house...<br><br>Be safe!</h3>
                 <hr class="intro-divider">
                 <ul class="list-inline intro-social-buttons">
@@ -142,22 +147,16 @@
           </div>
         </div>
       </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-      <div id="ubicacion">
+      
+      
+            <div id="ubicacion">
       <ul class="list-inline" >
         <li><input type="text" class="form-control" placeholder="Selecciona el lugar"> </li>
         <li><input type="text" class="form-control" placeholder="Día de llegada"></li>
         <li><input type="text" class="form-control" placeholder="Día de salida"></li>
         <li><input type="text" class="form-control" placeholder="Número de personas"></li>
       </ul>
-      <button  style="margin-left:650px; background-color:white; size:30px;">Buscar</button>
+      <button class="btn btn-default btn-lg" style="margin-left:550px; background-color:white;">Buscar</button>
       </div>
     </div><!-- /.carousel -->
 
@@ -171,11 +170,11 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
-                    <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
+                    <h1 class="section-heading">Anfitriones<br>Requisitos:</h1>
+                    <p class="lead">Ser anfitrión es muy fácil, lo que necesitas hacer es: <br></p><h3 class="selection-heading">Crea y publica tu anuncio.<br>Responde las solicitudes.<br>Recibe a tus huespedes.</h3><a href="#">Ver más</a>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/5.jpg" alt="">
+                    <img class="img-responsive" src="img/house.jpg" alt="">
                 </div>
             </div>
 
@@ -193,33 +192,52 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+                    <h2 class="section-heading">Presupuesto<br>Accesibilidad</h2>
+                    <p class="lead">chorochorochorochorochorochoro<br>chorochorochorochorochorochoro<br>chorochorochorochorochorochorochorochoro<br>chorochorochorochorochorochoro<br>chorochorochorochorochoro<br>orochorochorochorochorochorochoro</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/logo.jpg" alt="">
+                    <img class="img-responsive" src="img/graphic.jpg" alt="">
                 </div>
             </div>
 
         </div>
         <!-- /.container -->
-
+        
     </div>
     <!-- /.content-section-b -->
+    
+        <!-- /.container -->
+        
+    </div>
+    <div class="content-section-a">
 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h1 class="section-heading">Nosotros</h1>
+                    <p class="lead">Nosotros : <br></p><a href="#">Ver más</a>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/mesa.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
     <div class="content-section-a">
 
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-5 col-sm-6">
+                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+                    <h2 class="section-heading">Título :</h2>
+                    
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/parejas.jpg" alt="">
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/gay.jpg" alt="">
                 </div>
             </div>
 
@@ -256,36 +274,24 @@
         </div>
         <!-- /.container -->
 
-    </div>
+    
     <!-- /.banner -->
 
     <!-- Footer -->
-    <footer>
+  
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
+                    <ul>
                         <li>
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                    <p class="copyright text-muted small">Copyright &copy; Your Company 2016. All Rights Reserved</p>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

@@ -11,7 +11,7 @@ html {
 }
 
 body,
-h1,
+
 h2,
 h3,
 h4,
@@ -38,7 +38,9 @@ h6 {
     background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
 }
-
+#out{
+  font-family: 'Metrophobic', Arial, serif; font-weight: 400; 
+}
 .intro-message {
     position: relative;
     padding-top: 20%;
@@ -116,9 +118,10 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/LGTTBI.png) no-repeat center center;
+    background: url(../img/slider.png) no-repeat center center;
     background-size: cover;
     background-position: center;
+    
 }
 
 .banner h2 {
