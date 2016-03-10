@@ -1,0 +1,27 @@
+{
+  "name": "hack4equality",
+  "version": "0.1.0",
+  "description": "Out: some unique shit.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishelashala/hack4equality.git"
+  },
+  "keywords": [
+    "out",
+    "gay",
+    "traveling",
+    "hostal"
+  ],
+  "author": "Nopalitos",
+  "bugs": {
+    "url": "https://github.com/mishelashala/hack4equality/issues"
+  },
+  "homepage": "https://github.com/mishelashala/hack4equality#readme",
+  "dependencies": {
+    "express": "4.13.4"
+  }
+}
