@@ -1,3 +1,2 @@
 # hack4equality
-hackaton
-"coming out"
+Hackaton Project "coming out"

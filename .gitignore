@@ -1,2 +1,12 @@
 # modules and dependencies
 node_modules
+
+# logs
+log
+*.log
+
+# auto-save files
+*~
+
+# Mac Stuff
+.DS_Store
